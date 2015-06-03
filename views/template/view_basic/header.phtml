@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="<?php echo $lang; ?>">
+ 
+<head>
+<title>Titulo de la web</title>
+<meta charset="utf-8" />
+    <?php  echo $this->_objMain->cargarRecursos('main'); ?>
+    <link rel="stylesheet" href="<?php echo LIBRARYS;?>fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="<?php echo LIBRARYS;?>fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+   
+</head>
+<script>
+    $(document).ready(function(){
+    })   
+</script>
+<body>
+    <header>
+        <div id ="header-center">
+            <div id="logo" class ="inline ">
+                <img src="<?php echo RECURSOS;?>img<?php echo DS; ?>palmazera-logo.png" alt="APP_NAME" title ="APP_SLOGAN"/>
+            </div>
+            <div id ="header-rigth" class ="inline">
+                <nav id ="menu-main">
+                    <ul id ="main-menu-list">
+                        <li><a href ="#">HOME</a></li>
+                        <li><a href ="#">PROYECTO</a>
+                            <ul class="submenu">
+                                <li><a href ="#">Descripción</a></li>
+                                <li><a href ="#">Fachada</a></li>
+                                <li><a href ="#">Apartamento 2 alcobas</a></li>
+                                <li><a href ="#">Apartamento 3 alcobas</a></li>
+                                <li><a href ="#">Locales comerciales</a></li>
+                                <li><a href ="#">Portería</a></li>
+                                <li><a href ="#">Parqueaderos 1y 2</a></li>
+                                <li><a href ="#">Mirador</a></li>
+                            </ul>
+                        </li>
+                        <li><a href ="#">GALERÍA</a></li>
+                        <li><a href ="#">GRUPO PROFESIONAL</a></li>
+                        <li><a href ="#">UBICACIÓN</a></li>
+                        <li><a href ="#">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+   
